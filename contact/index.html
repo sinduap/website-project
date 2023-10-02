@@ -22,7 +22,7 @@
               alt="SPQR Sign"
               class="nav__img"
             />
-            <h1 class="nav__title">Senatus PopulusQue Romanus</h1>
+            <p class="nav__title">Senatus PopulusQue Romanus</p>
           </li>
           <li><a class="nav__item" href="/">home</a></li>
           <li><a class="nav__item" href="/contact">contact</a></li>
@@ -34,6 +34,45 @@
     <main>
       <div class="container">
         <h1 class="heading-primary">Contact</h1>
+
+        <fieldset>
+          <form class="form" action="/form-handler" method="post">
+            <div class="form__row space-between">
+              <label for="name">Name :</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="Sindu Andita Pratama"
+              />
+            </div>
+            <div class="form__row space-between">
+              <label for="country">Country :</label>
+              <input
+                type="text"
+                name="country"
+                id="country"
+                placeholder="Indonesia"
+              />
+            </div>
+            <div class="form__row">
+              <label for="interested"
+                >Are you interested in Roman history?</label
+              >
+              <input
+                type="checkbox"
+                name="interested"
+                id="interested"
+                checked
+              />
+            </div>
+
+            <label for="comment">Share your thoughts :</label>
+            <textarea name="comment" id="comment" name="comment"></textarea>
+
+            <button type="submit">Submit</button>
+          </form>
+        </fieldset>
       </div>
     </main>
   </body>
