@@ -1,2 +1,3 @@
-# website-project
-This is a website project for App Academy 
+# Website - Capstone Project
+
+This is a Website for App Academy Capstone Project
